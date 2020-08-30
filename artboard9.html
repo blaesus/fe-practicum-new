@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>用户管理</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			body {
+				margin: 0px; 
+				background-color: #dddddd;
+			}
+
+			#row {
+				height: 44px;
+				background-color: #ffffff;
+
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+			}
+
+			#leftArrow {
+				color: #999999;
+				margin-left: auto;
+				margin-left: 21px;
+			}
+
+			#center {
+				position: absolute;
+				left: 50%;
+				transform: translateX(-50%);
+				color: #333333;
+			}
+
+
+			.row2 {
+				height: 60px;
+				background-color: #ffffff;
+				margin-top: 1px;
+
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+			}
+
+
+			.you {
+				font-size: 15px;
+				color: #999999;
+				margin-left: auto;
+				margin-right: 20px;
+			}
+
+
+			.left {
+				margin-left: 21px;
+				color: #333333;
+			}
+
+
+			#row3 {
+				height: 60px;
+				background-color: #ffffff;
+				margin-top: 30px;
+
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+			}
+
+
+			#rightArrow {
+				color: #999999;
+				margin-left: auto;
+				margin-right: 30px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="row">
+			<div id="leftArrow"><a><</a></div>
+			<h3 id="center">用户管理</h3>
+		</div>
+
+		<div class="row2">
+			<h4 class="left">用户名</h4>
+			<p class="you">账号ABCDEF</p>
+		</div>
+
+		<div class="row2">
+			<h4 class="left">系统代号</h4>
+			<p class="you">1111111111111111111111111111111111111111111</p>
+		</div>
+
+		<div class="row2">
+			<h4 class="left">电话</h4>
+			<p class="you">13233333333</p>
+		</div>
+
+		<div class="row2">
+			<h4 class="left">代理人</h4>
+			<p class="you">未批准</p>
+		</div>
+
+		<div id="row3">
+			<h4 class="left">管理用户特权</h4>
+			<a id="rightArrow">></a>
+		</div>
+	</body>
+</html>

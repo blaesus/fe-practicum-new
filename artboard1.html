@@ -9,45 +9,99 @@
                 flex-direction: column;
                 align-items: center;
             }
+
             .Header {
+                width: 100%;
                 display: flex;
                 flex-direction: row;
+                justify-content: space-between;
             }
 
-
-
+            span {
+                font-size: 17px;
+                font-weight: bold;
+            }
 
             .input {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
             }
+
             input {
                 margin-bottom: 20px;
+                width: 269px;
+                height: 30px;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                outline: none;
             }
+
             a {
                 text-decoration:none
             }
+
             .Sign-in {
-                padding: 10px 80px;
-                background-color: #F57D3F;
+                width: 269px;
+                line-height: 40px;
+                text-align: center;
                 color: #FFFFFF;
                 margin-bottom: 20px;
+                background:-webkit-linear-gradient(left, #FBB473,#F57D3F); 
+                background:linear-gradient(left,#FBB473,#F57D3F);
+                margin-top: 7.3vh;
             }
 
+            .cha {
+                font-size: 30px;
+                margin-top: -10px;
+            }
+
+            .head-portrait {
+                margin-top: 9.5vh;
+                margin-bottom: 11vh;
+                height: 90px;
+                width: 90px;
+                background-color: #DDDDDD;
+                border-radius: 50%;
+                position: relative;
+            }
+
+            .head-head {
+                width: 18px;
+                height: 18.5px;
+                border: 4px solid #FFFFFF;
+                border-radius: 50%;
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            .head-body {
+                height: 24.3px;
+                width: 40px;
+                border: 4px solid #FFFFFF;
+                border-top-left-radius: 70%;
+                border-top-right-radius: 70%;
+                border-bottom-left-radius: 45%;
+                border-bottom-right-radius: 45%;
+                position: absolute;
+                top: 70%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
         </style>
     </head>
     <body>
         <div class="Header">
-            <div class="">
-                <h3>登录</h3>
-            </div>
-            <div>
-                <p>X</p>
-            </div>
+            <span style="width: 22.844px;"></span>
+            <span>登录</span>
+            <span class="cha">×</span>
         </div>
         <div class="head-portrait">
-            <div class="head-head"></div>
+            <div class="head-head"> </div>
             <div class="head-body"></div>
         </div>
         <div class="input">

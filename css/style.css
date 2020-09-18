@@ -1,0 +1,66 @@
+/* 上半部分(标题和返回键部分) */
+#top {
+    display: flex;
+}
+
+#Return-key p img {
+    height: 12px;
+    width: 6px;
+}
+
+#title {
+    height: 24px;
+    width: 136px;
+    /* 位置等于绝对定位 */
+    position: absolute;
+    left: 50%;
+
+    /* 减去标题自身长度的一半 */
+    transform: translateX(-50%);
+}
+
+/* 导航栏 */
+#navigation-bar {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 339px;
+    border-bottom:1px solid #DDDDDD;
+
+    left: 50%;
+
+    /* 减去标题自身长度的一半 */
+    transform: translateX(-50%);
+}
+/* 标题以下的部分 */
+#shuJuAndDaohanglan {
+    position: absolute;
+    left: 0px;
+    width: 100vw;
+    background-color: rgb(249, 249, 249);
+}
+
+/* 两个导航栏 */
+/* #personal,#mechanism {
+    
+} */
+
+
+/* 填写内容部分 */
+#input{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+input {
+    border:none;
+    width: 353px;
+    height: 40px;
+    border-radius: 6px;
+
+    
+}
+
+
+
